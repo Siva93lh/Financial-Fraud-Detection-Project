@@ -8,6 +8,6 @@
 - 📄 [Project Documentation](https://drive.google.com/file/d/1WnvcxTzioD6N5mmI-CBzCET8WgT9Jf1A/view?usp=sharing)
 
 
-# 📌 **Introduction**
+# 📌 **INTRODUCTION**
 
-Financial Fraud Detection is a data analytics and machine learning project designed to identify suspicious financial transactions and reduce fraudulent activities. The project uses transaction data, risk indicators, and machine learning model performance metrics to analyze fraud patterns and support data-driven decision-making.
+Financial Fraud Detection is a data analytics and machine learning project designed to identify suspicious financial transactions and reduce fraudulent activities. The project uses transaction data, risk indicators, and machine learning model performance metrics to analyze fraud patterns and support data-driven decision-making. Also  analyzed financial transactions to identify suspicious activities and potential fraud. Monitor transaction trends, payment methods, and geographic fraud patterns and identified important features that contribute to fraud prediction.
