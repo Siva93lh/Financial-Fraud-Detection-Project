@@ -1,9 +1,5 @@
 # Financial-Fraud-Detection-Project
 
-🔗 Project Links
-
-## 🔗 Project Links
-
 ## 🔗 Project Links
 
 - 💻 [Source Code](YOUR_GITHUB_REPOSITORY_URL)
