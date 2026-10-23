@@ -22,3 +22,5 @@ Financial Fraud Detection is a data analytics and machine learning project desig
 - **Evaluate Model Performance:** Assess machine learning models using appropriate evaluation metrics.
 - **Develop Interactive Dashboards:** Create Power BI dashboards for effective fraud analysis and visualization.
 - **Support Risk Management:** Provide actionable insights to improve fraud prevention strategies.
+
+
