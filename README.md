@@ -39,10 +39,10 @@ Financial Fraud Detection is a data analytics and machine learning project desig
 ## 📂 Datasets
 
 - 📁 [Fraud Prediction Feature Dataset](https://docs.google.com/spreadsheets/d/1Ry-LfgLMQedO8JxT5bR05PBVfCxKJpIs/edit?usp=sharing&ouid=116913806936212812012&rtpof=true&sd=true)
-- 📁 [SKU Master Dataset](PASTE_SKU_MASTER_DATASET_URL)
-- 📁 [Customer Business ML Dataset](PASTE_CUSTOMER_BUSINESS_DATASET_URL)
-- 📁 [Inventory Seasonality Dataset](PASTE_INVENTORY_SEASONALITY_DATASET_URL)
-- 📁 [Promotional Dataset](PASTE_PROMOTIONAL_DATASET_URL)
-- 📁 [Overstock Dataset](PASTE_OVERSTOCK_DATASET_URL)
+- 📁 [Payment Method Transaction Dataset](https://docs.google.com/spreadsheets/d/1YpmUJUssS2LRC3c2s7CTzp4-G2zmpIv9/edit?usp=sharing&ouid=116913806936212812012&rtpof=true&sd=true)
+- 📁 [ML Model Perfomance  Dataset](https://docs.google.com/spreadsheets/d/1yVHBsCXZfJbnIu3Ah2cEN91lNlwEhYAi/edit?usp=sharing&ouid=116913806936212812012&rtpof=true&sd=true)
+- 📁 [Transaction Risk Dataset](https://docs.google.com/spreadsheets/d/1oIivdQzwzeoBqQfnqh-IV9DOcMH-AEQa/edit?usp=sharing&ouid=116913806936212812012&rtpof=true&sd=true)
+- 📁 [Fraud Analysis Dataset](https://docs.google.com/spreadsheets/d/1UiYlw3ejGL3YilGkbKrqC_xKg63cxe-5/edit?usp=sharing&ouid=116913806936212812012&rtpof=true&sd=true)
+- 📁 [Executive Risk Summary Dataset](https://docs.google.com/spreadsheets/d/1iB3yg65lX3IlWF5RipaaxGm10jtVN4ai/edit?usp=sharing&ouid=116913806936212812012&rtpof=true&sd=true)
 
 
