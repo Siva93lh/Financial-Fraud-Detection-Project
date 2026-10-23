@@ -14,24 +14,11 @@ Financial Fraud Detection is a data analytics and machine learning project desig
 
 🎯 **OBJECTIVES**
 
-The primary objectives of the Financial Fraud Detection project are:
-
-Fraud Identification: Detect suspicious transactions and identify potential fraudulent activities.
-
-Transaction Analysis: Analyze transaction patterns, amounts, frequencies, and trends.
-
-Payment Method Analysis: Evaluate fraud risks across different payment methods.
-
-Geographic Risk Analysis: Identify locations with higher fraud activity.
-
-Feature Importance Analysis: Determine the key factors influencing fraud predictions.
-
-Model Performance Evaluation: Assess machine learning models using appropriate evaluation metrics.
-
-Interactive Dashboard Development: Build Power BI dashboards to present fraud-related insights effectively.
-
-Risk Monitoring: Track fraud indicators and highlight potential areas of concern.
-
-Data-Driven Decision-Making: Help stakeholders make informed decisions to improve fraud prevention strategies.
-
-Executive Reporting: Provide a consolidated view of fraud trends, model performance, and financial risk indicators.
+- **Identify Fraudulent Transactions:** Detect suspicious financial activities and potential fraud patterns.
+- **Analyze Transaction Trends:** Examine transaction amounts, frequencies, and historical patterns.
+- **Evaluate Payment Methods:** Analyze fraud risks across different payment methods.
+- **Monitor Geographic Risks:** Identify locations associated with suspicious transaction activity.
+- **Analyze Feature Importance:** Determine the key factors influencing fraud predictions.
+- **Evaluate Model Performance:** Assess machine learning models using appropriate evaluation metrics.
+- **Develop Interactive Dashboards:** Create Power BI dashboards for effective fraud analysis and visualization.
+- **Support Risk Management:** Provide actionable insights to improve fraud prevention strategies.
