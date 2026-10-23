@@ -64,6 +64,53 @@ Financial Fraud Detection is a data analytics and machine learning project desig
 - GitHub
 
 
+
+## 📊 Key KPIs
+
+- Total Transactions
+- Total Fraud Transactions
+- Total Legitimate Transactions
+- Fraud Detection Rate
+- Fraud Loss Amount
+- Total Transaction Amount
+- Average Transaction Amount
+- Fraud Rate (%)
+- Fraud by Payment Method
+- Geographic Fraud Distribution
+- High-Risk Transactions
+- Fraud Trends Over Time
+- Model Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC Score
+- Feature Importance
+
+
+## 📊 DAX Formulas Used
+
+- Total Transactions = DISTINCTCOUNT('Fraud Data'[Transaction ID])
+- Total Fraud Transactions = CALCULATE(DISTINCTCOUNT('Fraud Data'[Transaction ID]), 'Fraud Data'[Is Fraud] = 1)
+- Total Legitimate Transactions = CALCULATE(DISTINCTCOUNT('Fraud Data'[Transaction ID]), 'Fraud Data'[Is Fraud] = 0)
+- Total Transaction Amount = SUM('Fraud Data'[Transaction Amount])
+- Average Transaction Amount = AVERAGE('Fraud Data'[Transaction Amount])
+- Fraud Loss Amount = CALCULATE(SUM('Fraud Data'[Transaction Amount]), 'Fraud Data'[Is Fraud] = 1)
+- Fraud Rate (%) = DIVIDE([Total Fraud Transactions], [Total Transactions], 0) * 100
+- Legitimate Transaction Rate (%) = DIVIDE([Total Legitimate Transactions], [Total Transactions], 0) * 100
+- Average Fraud Amount = CALCULATE(AVERAGE('Fraud Data'[Transaction Amount]), 'Fraud Data'[Is Fraud] = 1)
+- High-Risk Transactions = CALCULATE(DISTINCTCOUNT('Fraud Data'[Transaction ID]), 'Fraud Data'[Risk Level] = "High")
+- Fraud Transactions by Payment Method = CALCULATE(DISTINCTCOUNT('Fraud Data'[Transaction ID]), 'Fraud Data'[Is Fraud] = 1)
+- Fraud Transactions by Location = CALCULATE(DISTINCTCOUNT('Fraud Data'[Transaction ID]), 'Fraud Data'[Is Fraud] = 1)
+- Total Predicted Fraud = CALCULATE(DISTINCTCOUNT('Fraud Data'[Transaction ID]), 'Fraud Data'[Predicted Fraud] = 1)
+- True Positive = CALCULATE(DISTINCTCOUNT('Fraud Data'[Transaction ID]), 'Fraud Data'[Is Fraud] = 1, 'Fraud Data'[Predicted Fraud] = 1)
+- False Positive = CALCULATE(DISTINCTCOUNT('Fraud Data'[Transaction ID]), 'Fraud Data'[Is Fraud] = 0, 'Fraud Data'[Predicted Fraud] = 1)
+- False Negative = CALCULATE(DISTINCTCOUNT('Fraud Data'[Transaction ID]), 'Fraud Data'[Is Fraud] = 1, 'Fraud Data'[Predicted Fraud] = 0)
+- Precision (%) = DIVIDE([True Positive], [True Positive] + [False Positive], 0) * 100
+- Recall (%) = DIVIDE([True Positive], [True Positive] + [False Negative], 0) * 100
+- F1-Score (%) = DIVIDE(2 * [Precision (%) ] * [Recall (%) ], [Precision (%) ] + [Recall (%) ], 0)
+
+
+
   
 
   
