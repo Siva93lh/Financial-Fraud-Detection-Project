@@ -111,6 +111,10 @@ Financial Fraud Detection is a data analytics and machine learning project desig
 
 
   
+
+## 📂 Repository Structure
+
+```text
 Financial-Fraud-Detection/
 │
 ├── 📂 Dataset/
@@ -145,6 +149,8 @@ Financial-Fraud-Detection/
 │   └── Financial_Fraud_Detection_Documentation.pdf
 │
 └── 📄 README.md
+```
+
 
 
 ## 📌 Conclusion
