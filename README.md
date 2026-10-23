@@ -24,3 +24,25 @@ Financial Fraud Detection is a data analytics and machine learning project desig
 - **Support Risk Management:** Provide actionable insights to improve fraud prevention strategies.
 
 
+
+# 🚀 Project Resources
+
+## 📊 Dashboards
+
+- 🔗 [Power BI Dashboard](PASTE_POWER_BI_DASHBOARD_URL)
+- 🌐 [Streamlit Dashboard](PASTE_STREAMLIT_APP_URL)
+
+## 📄 Project Documentation
+
+- 📑 [View Project Documentation PDF](PASTE_PROJECT_PDF_URL)
+
+## 📂 Datasets
+
+- 📁 [ML Inventory Execution Dataset](PASTE_ML_INVENTORY_DATASET_URL)
+- 📁 [SKU Master Dataset](PASTE_SKU_MASTER_DATASET_URL)
+- 📁 [Customer Business ML Dataset](PASTE_CUSTOMER_BUSINESS_DATASET_URL)
+- 📁 [Inventory Seasonality Dataset](PASTE_INVENTORY_SEASONALITY_DATASET_URL)
+- 📁 [Promotional Dataset](PASTE_PROMOTIONAL_DATASET_URL)
+- 📁 [Overstock Dataset](PASTE_OVERSTOCK_DATASET_URL)
+
+
