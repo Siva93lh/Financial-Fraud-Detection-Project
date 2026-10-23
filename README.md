@@ -87,7 +87,7 @@ Financial Fraud Detection is a data analytics and machine learning project desig
 - Feature Importance
 
 
-## 📊 DAX Formulas Used
+## 📊 DAX Measures Used:
 
 - Total Transactions = DISTINCTCOUNT('Fraud Data'[Transaction ID])
 - Total Fraud Transactions = CALCULATE(DISTINCTCOUNT('Fraud Data'[Transaction ID]), 'Fraud Data'[Is Fraud] = 1)
@@ -108,6 +108,69 @@ Financial Fraud Detection is a data analytics and machine learning project desig
 - Precision (%) = DIVIDE([True Positive], [True Positive] + [False Positive], 0) * 100
 - Recall (%) = DIVIDE([True Positive], [True Positive] + [False Negative], 0) * 100
 - F1-Score (%) = DIVIDE(2 * [Precision (%) ] * [Recall (%) ], [Precision (%) ] + [Recall (%) ], 0)
+
+
+  
+Financial-Fraud-Detection/
+│
+├── 📂 Dataset/
+│   ├── Fraud_Analysis_Dashboard_Dataset.xlsx
+│   ├── Payment_Method_Risk_Dashboard_Dataset.xlsx
+│   ├── Geographic_Fraud_Dashboard_Dataset.xlsx
+│   ├── Transaction_Trend_Dashboard_Dataset.xlsx
+│   ├── ML_Model_Performance_Dashboard_Dataset.xlsx
+│   ├── Fraud_Prediction_Feature_Importance_Dashboard_Dataset.xlsx
+│   ├── Executive_Risk_Summary_Dashboard_Dataset.xlsx
+│   └── ...
+│
+├── 📂 Machine_Learning/
+│   └── Fraud_Detection_Model.ipynb
+│
+├── 📂 PowerBI/
+│   └── Financial_Fraud_Detection_Dashboard.pbix
+│
+├── 📂 Streamlit/
+│   └── app.py
+│
+├── 📂 Screenshots/
+│   ├── Fraud_Analysis_Dashboard.png
+│   ├── Payment_Method_Risk_Dashboard.png
+│   ├── Geographic_Fraud_Dashboard.png
+│   ├── Transaction_Trend_Dashboard.png
+│   ├── ML_Model_Performance_Dashboard.png
+│   ├── Feature_Importance_Dashboard.png
+│   └── Executive_Risk_Summary_Dashboard.png
+│
+├── 📂 Documentation/
+│   └── Financial_Fraud_Detection_Documentation.pdf
+│
+└── 📄 README.md
+
+
+## 📌 Conclusion
+
+- The Financial Fraud Detection project integrates Data Analytics, Machine Learning, Power BI, DAX, and Streamlit to support fraud identification and financial risk analysis.
+- The project transforms raw transaction data into meaningful business insights through data preprocessing, exploratory data analysis (EDA), and fraud pattern analysis.
+- The machine learning component helps identify potentially fraudulent transactions and evaluate fraud prediction performance.
+- Payment method and geographic analysis help identify fraud patterns across different transaction categories and locations.
+- Feature importance analysis highlights the factors that contribute to fraud predictions.
+- Power BI provides interactive dashboards with KPIs, transaction trends, fraud distribution, and risk indicators.
+- Streamlit provides a user-friendly interface for exploring fraud insights and analytical results.
+- The project demonstrates how data analytics and machine learning can support fraud monitoring, risk assessment, and informed financial decision-making.
+
+## 🎯 Key Learnings
+
+- **Data Preprocessing:** Learned to clean, transform, and prepare transaction datasets for analysis.
+- **Exploratory Data Analysis:** Gained insights into transaction patterns, fraud distribution, and risk indicators.
+- **Machine Learning:** Understood how classification models can be used to identify potentially fraudulent transactions.
+- **Feature Importance:** Learned to identify important variables influencing fraud predictions.
+- **Model Evaluation:** Gained experience evaluating model performance using accuracy, precision, recall, F1-score, and ROC-AUC.
+- **DAX Measures:** Developed measures to calculate fraud rates, transaction counts, and financial risk KPIs.
+- **Power BI Visualization:** Learned to build interactive dashboards for monitoring fraud trends and risk patterns.
+- **Streamlit Development:** Gained experience presenting analytical results through an interactive web application.
+- **Business Intelligence:** Improved the ability to translate analytical findings into actionable business insights.
+- **End-to-End Project Development:** Gained practical experience combining data analytics, machine learning, visualization, and reporting in one project.
+
 
 
 
